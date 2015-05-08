@@ -1,0 +1,19 @@
+{
+  "name": "book_discussion",
+  "version": "0.0.0",
+  "description": "For microservices book club",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.12.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yetanotherbookclub/book_discussion.git"
+  }
+}

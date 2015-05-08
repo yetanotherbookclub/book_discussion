@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "author_id": "1",
+        "book_id": "978-1491950357",
+        "title": "Orchestration vs. Choreography",
+        "subject": "When is orchestration appropriate?  When is choreography?",
+        "responses": [
+            {
+                "id": 1,
+                "author_id": "2",
+                "comment": "choreography is always better since it's less coupled",
+                "responses": [
+                    {
+                        "id": 2,
+                        "author_id": "1",
+                        "comment": "No, orchestration is always better since it's easier to understand and debug"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "author_id": "2",
+        "book_id": "978-1491950357",
+        "title": "RPC vs. REST",
+        "subject": "REST is the new hotness.  Surely everyone agrees?",
+        "responses": [
+            {
+                "id": 3,
+                "author_id": "1",
+                "comment": "Uh, no, dude, SOAP is terrific for cross platform work- don't make me deal with stupid HTTP stuff when I'm writing .Net and Java stuff"
+            }
+        ]
+    }
+]
