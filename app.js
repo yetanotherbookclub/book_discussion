@@ -31,7 +31,7 @@ app.get('/discussions/:discussion_id/responses/:response_id', function (req, res
 });
 
 app.post('/discussions', function (req, res) {
-  console.log('In handler for /discussions', req.body);
+  console.log('In handler for POST /discussions', req.body);
 
   if (!req.body['author_id']) {
     res.status(400).send('author_id field is required');
